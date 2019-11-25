@@ -113,3 +113,85 @@ która wymusza wysokość elementu na zadaną wartość lub wyższą.
 .content-section {
     min-height: 100vh;
 }
+
+
+/* Praca domowa nr 1: */
+
+body {
+    background-image: url("./images/background.svg");
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: OpenSans;
+    font-size: 13px;
+    font-weight: reg;
+    letter-spacing: 1.5px;
+ }
+
+h1 {
+    font-size: 28px;
+    font-family: OpenSans;
+    font-weight: bold;
+    letter-spacing: 4.5px;
+}
+
+h2 {
+    color: #EC008C;
+    font-style: OpenSans
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 3.8px;
+    font-size: 28px;
+}
+
+section{
+    display: flex;
+}
+
+.band-members {
+    display: flex;
+    text-align: left;
+
+}
+
+.band-members__item {
+}
+
+.band-members__name {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 15px;
+    }
+
+.band-members__desc {
+    color: #CCC8FF;
+    font-size: 13px;
+
+}
+
+.band-members__image{
+    /*opacity?*/
+}
+
+.about-section {
+    position: relative;
+}
+
+.about-section img {
+    border-top-style: solid;
+    border-color: #EC008E;
+    border-width: 3px;
+}
+
+.about-section__desc {
+    position: absolute;
+    text-align: left;
+    border-color: #EC008E;
+    border-width: 3px;
+    border-bottom-style: solid;
+    font-size: 15px;
+
+}
+
+.concerts {
+    display: flex;
+}
